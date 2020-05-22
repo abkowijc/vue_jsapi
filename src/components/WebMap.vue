@@ -47,6 +47,7 @@ export default {
           "https://idpgis.ncep.noaa.gov/arcgis/rest/services/radar/radar_base_reflectivity_time/ImageServer",
       });
       radarLayer.opacity = 0.7;
+      radarLayer.refreshInterval = 0.5;
       map.add(radarLayer, 0);
     });
   },
